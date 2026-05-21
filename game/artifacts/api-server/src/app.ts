@@ -36,6 +36,11 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Redirect root requests to the built game base path.
+app.get("/", (_req, res) => {
+  res.redirect("/forestbrawl/");
+});
+
 app.use("/api", router);
 
 // Serve Forest Brawl game static files
