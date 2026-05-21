@@ -1,7 +1,6 @@
 services:
   - type: web
     name: forestbrawl-api
-    root: game
     env: docker
     dockerfilePath: Dockerfile
     envVars:
