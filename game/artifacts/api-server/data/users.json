@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "12ad34bc-e905-411a-8388-ffec17ec4984",
+      "username": "Emirreisucar",
+      "email": "camozmuhammet@gmail.com",
+      "passwordHash": "3ceba19ec8afdfa2792453f108fdd87e5246818ff9da7260003a596f5a487639",
+      "salt": "c0b30e179860e289c75da32cc6153d38",
+      "createdAt": "2026-05-20T21:45:32.124Z",
+      "xp": 0,
+      "rankId": 0,
+      "coins": 200,
+      "gamesPlayed": 0,
+      "kills": 0,
+      "deaths": 0,
+      "bestScore": 0,
+      "timePlayed": 0,
+      "ownedItems": [],
+      "equippedItems": {
+        "kanatlar": "w_dragon",
+        "sapkalar": "h_viking",
+        "yuz": "f_tusks",
+        "aksesuarlar": "a_tail",
+        "renkler": "c_purple"
+      },
+      "lastXpUpdate": 0
+    },
+    {
+      "id": "42bfa7d8-a9e1-41c8-bd74-aa5213ec93ce",
+      "username": "bababababa",
+      "email": "eefe@gmail.com",
+      "passwordHash": "a155e3f0f236bcd1dc323fe9df14e8d1a73252bd3744ce9e6c6066c5da86f29e",
+      "salt": "e5594b3936e518d7b7859f98e9a45928",
+      "createdAt": "2026-05-20T21:52:47.371Z",
+      "xp": 10,
+      "rankId": 0,
+      "coins": 200,
+      "gamesPlayed": 1,
+      "kills": 0,
+      "deaths": 1,
+      "bestScore": 0,
+      "timePlayed": 5,
+      "ownedItems": [],
+      "equippedItems": {},
+      "lastXpUpdate": 1779313996760
+    }
+  ]
+}

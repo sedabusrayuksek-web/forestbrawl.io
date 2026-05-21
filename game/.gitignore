@@ -1,0 +1,11 @@
+node_modules
+dist
+*.mjs
+*.mjs.map
+.DS_Store
+.env
+.env.local
+.env.*.local
+*.log
+.replit
+Babac.zip

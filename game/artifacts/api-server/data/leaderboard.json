@@ -1,0 +1,35 @@
+{
+  "daily": [],
+  "weekly": [
+    {
+      "userId": "42bfa7d8-a9e1-41c8-bd74-aa5213ec93ce",
+      "username": "bababababa",
+      "rankId": 0,
+      "score": 10,
+      "kills": 0,
+      "updatedAt": "2026-05-20T21:53:16.760Z"
+    }
+  ],
+  "all": [
+    {
+      "userId": "42bfa7d8-a9e1-41c8-bd74-aa5213ec93ce",
+      "username": "bababababa",
+      "rankId": 0,
+      "score": 10,
+      "kills": 0,
+      "updatedAt": "2026-05-20T21:53:16.760Z"
+    }
+  ],
+  "kills": [
+    {
+      "userId": "42bfa7d8-a9e1-41c8-bd74-aa5213ec93ce",
+      "username": "bababababa",
+      "rankId": 0,
+      "score": 10,
+      "kills": 0,
+      "updatedAt": "2026-05-20T21:53:16.760Z"
+    }
+  ],
+  "lastResetDaily": "2026-05-21T02:01:35.020Z",
+  "lastResetWeekly": "2026-05-20T20:24:03.905Z"
+}

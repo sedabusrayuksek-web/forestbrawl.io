@@ -1,0 +1,16 @@
+{
+  "name": "@workspace/root",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @workspace/api-server run dev",
+    "build": "pnpm install && pnpm build:all",
+    "build:all": "pnpm --filter @workspace/forestbrawl run build && pnpm --filter @workspace/api-server run build",
+    "start": "node --enable-source-maps artifacts/api-server/dist/index.mjs",
+    "typecheck": "pnpm --filter @workspace/api-server run typecheck && pnpm --filter @workspace/forestbrawl run typecheck"
+  },
+  "devDependencies": {
+    "pnpm": "^9"
+  }
+}

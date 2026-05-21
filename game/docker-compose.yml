@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  forestbrawl:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+      - PORT=8080
+      - SESSION_SECRET=${SESSION_SECRET:-forestbrawl-change-me-in-production}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+    volumes:
+      - ./artifacts/api-server/data:/app/api-server/data
