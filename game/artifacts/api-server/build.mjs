@@ -12,6 +12,7 @@ await build({
   platform: "node",
   target: ["node24"],
   format: "esm",
+  outExtension: { ".js": ".mjs" },
   outdir: "dist",
   sourcemap: true,
   logLevel: "info",
