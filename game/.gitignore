@@ -1,6 +1,7 @@
 node_modules
 dist
 *.mjs
+!artifacts/api-server/build.mjs
 *.mjs.map
 .DS_Store
 .env
