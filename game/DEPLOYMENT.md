@@ -48,7 +48,7 @@ cd artifacts && pnpm install && pnpm run build
 
 #### Start Command
 ```bash
-node --enable-source-maps artifacts/api-server/dist/index.mjs
+node --enable-source-maps artifacts/api-server/dist/index.cjs
 ```
 
 #### Environment Variables

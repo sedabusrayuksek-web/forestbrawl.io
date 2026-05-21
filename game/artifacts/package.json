@@ -7,7 +7,7 @@
     "dev": "pnpm --filter @workspace/api-server run dev",
     "build": "pnpm install && pnpm build:all",
     "build:all": "pnpm --filter @workspace/forestbrawl run build && pnpm --filter @workspace/api-server run build",
-    "start": "node --enable-source-maps artifacts/api-server/dist/index.mjs",
+    "start": "node --enable-source-maps artifacts/api-server/dist/index.cjs",
     "typecheck": "pnpm --filter @workspace/api-server run typecheck && pnpm --filter @workspace/forestbrawl run typecheck"
   },
   "devDependencies": {

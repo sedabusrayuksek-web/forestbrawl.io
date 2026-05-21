@@ -87,7 +87,7 @@ pnpm --filter @workspace/api-server run build
 
 ```bash
 cd artifacts
-PORT=8080 node --enable-source-maps api-server/dist/index.mjs
+PORT=8080 node --enable-source-maps api-server/dist/index.cjs
 ```
 
 ### Docker Deployment
@@ -116,7 +116,7 @@ ENV NODE_ENV=production
 ENV PORT=8080
 
 # Run
-CMD ["node", "--enable-source-maps", "artifacts/api-server/dist/index.mjs"]
+CMD ["node", "--enable-source-maps", "artifacts/api-server/dist/index.cjs"]
 ```
 
 ### Render.com Deployment
@@ -125,7 +125,7 @@ CMD ["node", "--enable-source-maps", "artifacts/api-server/dist/index.mjs"]
 2. Connect your GitHub repository
 3. Configure:
    - **Build Command**: `cd artifacts && pnpm install && pnpm run build`
-   - **Start Command**: `node --enable-source-maps artifacts/api-server/dist/index.mjs`
+   - **Start Command**: `node --enable-source-maps artifacts/api-server/dist/index.cjs`
    - **Port**: `8080`
    - **Environment Variables**:
      - `NODE_ENV=production`

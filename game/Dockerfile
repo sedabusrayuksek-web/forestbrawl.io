@@ -32,4 +32,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
   CMD node -e "require('http').get('http://localhost:8080/api/healthz', (r) => {if (r.statusCode !== 200) throw new Error(r.statusCode)})"
 
 # Start server
-CMD ["node", "--enable-source-maps", "api-server/dist/index.mjs"]
+CMD ["node", "--enable-source-maps", "api-server/dist/index.cjs"]
