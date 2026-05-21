@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: forestbrawl-api
+    env: docker
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 8080
+    buildFilter:
+      paths:
+        - game/artifacts/**
+      ignoredPaths:
+        - game/artifacts/mockup-sandbox/**
+    headers:
+      - path: /api/*
+        name: Cache-Control
+        value: no-cache
+      - path: /forestbrawl/*
+        name: Cache-Control
+        value: public, max-age=3600
