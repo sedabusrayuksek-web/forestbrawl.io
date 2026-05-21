@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "id": "a5f52d1e-d8e9-4acb-9608-cfb419299936",
+      "username": "testuser123",
+      "email": "test@example.com",
+      "passwordHash": "cde81fb57036e0b9c15f23ce0c59d6b8dc647974b5aa07e2c2536592325c944b",
+      "salt": "6e7f7efa3cc35b24a03b95cda2bd3698",
+      "createdAt": "2026-05-21T11:35:28.827Z",
+      "xp": 0,
+      "rankId": 0,
+      "coins": 200,
+      "gamesPlayed": 0,
+      "kills": 0,
+      "deaths": 0,
+      "bestScore": 0,
+      "timePlayed": 0,
+      "ownedItems": [],
+      "equippedItems": {},
+      "lastXpUpdate": 0
+    }
+  ]
+}
